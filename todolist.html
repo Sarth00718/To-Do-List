@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-blue-100 font-sans">
+    <div class="container mx-auto p-4">
+        <div class="bg-white rounded-lg shadow-lg p-6 max-w-lg mx-auto">
+            <h1 class="text-2xl font-bold text-blue-600 text-center mb-4">To-Do List</h1>
+            <div class="flex flex-col sm:flex-row mb-4 gap-2">
+                <input type="text" id="taskInput" placeholder="Add a Task"
+                    class="flex-grow px-4 py-2 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button id="addTask"
+                    class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 focus:outline-none">
+                    Add
+                </button>
+            </div>
+            <ul id="taskList" class="list-none"></ul>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+</html>
