@@ -1,4 +1,5 @@
 # 📝 Responsive To-Do List App
+
 This is a responsive To-Do List web application built using HTML, Tailwind CSS, and JavaScript. It allows users to easily add, mark as completed, and remove tasks—all within a clean, responsive UI.
 
 🚀 Features
